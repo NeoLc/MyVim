@@ -85,6 +85,9 @@ nnoremap <leader>s :NERDTreeToggle<CR>
 nnoremap <leader>f :NERDTreeFind<CR>
 let NERDTreeShowHidden=1
 
+" easymotion config          
+nmap ss <Plug>(easymotion-s2)
+
 " plug config for vim-interestingwords
 let g:interestingWordsDefaultMappings = 0
 nnoremap <silent> <leader>l :call InterestingWords('n')<cr>
