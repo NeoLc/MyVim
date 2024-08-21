@@ -78,6 +78,9 @@ nmap <A-w> <C-w>
 "terminal
 nnoremap <C-t> :terminal<CR>
 
+"paste mode               
+map <F9> :set paste<CR>   
+map <F10> :set nopaste<CR>
 """"""""""""""""""""""""""""""""""""""""""""""""""""
 
 " plug config for nerdtree
