@@ -163,6 +163,12 @@ set statusline+=%{gutentags#statusline()}
 let g:gutentags_cache_dir = "~/.cache/tags"
 let g:gutentags_project_root = ['Makefile']
 
+" Plug config for Vim bookmark
+nmap <Leader>m <Plug>BookmarkToggle
+nmap <F3> <Plug>BookmarkNext
+nmap <F2> <Plug>BookmarkPrev
+nmap <Leader>d <Plug>BookmarkClear
+nmap <Leader>a <Plug>BookmarkShowAll
 """"""""""""""""""""""""""""""""""""""""""""""""""""
 
 "新建.c,.h,.sh,.java文件，自动插入文件头
