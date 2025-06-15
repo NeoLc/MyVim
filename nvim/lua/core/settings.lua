@@ -6,7 +6,7 @@ settings["use_ssh"] = false
 
 -- Set it to false if you don't use copilot
 ---@type boolean
-settings["use_copilot"] = true
+settings["use_copilot"] = false
 
 -- Set it to false if there is no need to format on save.
 ---@type boolean
@@ -107,13 +107,13 @@ settings["external_browser"] = "chrome-cli open"
 -- https://github.com/neovim/nvim-lspconfig/tree/master/lua/lspconfig/server_configurations
 ---@type string[]
 settings["lsp_deps"] = {
-	"bashls",
+--	"bashls",
 	"clangd",
-	"html",
-	"jsonls",
+--	"html",
+--	"jsonls",
 	"lua_ls",
-	"pylsp",
-	"gopls",
+--	"pylsp",
+--	"gopls",
 }
 
 -- Set the general-purpose servers that will be installed during bootstrap here.
